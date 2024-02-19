@@ -1,0 +1,73 @@
+body {
+  background-color: #FEECE2;
+}
+
+.font-green{
+  color:#98FFA8;
+  text-shadow:2px 2px black;
+}
+.font-red {
+  color:#FDC4C4;
+  text-shadow:2px 2px black;
+}
+
+.main {
+  text-align:center;
+}
+
+.btn {
+	border: 2px solid gray;
+	border-radius: 10px;
+  padding:10px 20px;
+  font-size:20px;
+  cursor:pointer;
+  background: #f5d4c3;
+	border-radius: 10px;
+  border-color:gray;
+}
+
+.btn:hover {
+	background: #dab29d;
+	border-radius: 10px;
+	border-color: #252525;
+}
+
+.dislike-icon-before:before{
+  content:"✖️ |"
+}
+
+.like-icon-before:before{
+  content:"☑️  |"
+}
+
+.btn-red {
+  border-color:#8E1C1C;
+  color:#8E1C1C;
+  background-color:#FDC4C4;
+}
+
+.btn-red:hover {
+  border-color:#8E1C1C;
+  color:#8E1C1C;
+  background-color:#ED9C9C;
+}
+
+.btn-red:before{
+  content:"❌ |";
+}
+
+.btn-green {
+  border-color:#276229;
+  color:#276229;
+  background-color:#98FFA8;
+}
+
+.btn-green:before {
+  content:"✅  |";
+}
+
+.btn-green:hover {
+  border-color:#276229;
+  color:#276229;
+  background-color:#6BCD7B;
+}
